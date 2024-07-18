@@ -1,84 +1,71 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f2f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensibull - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sensibull.io</h1>
+            <p>Get Filtered Updates for Stocks You Track On WhatsApp</p>
+        </div>
+    </header>
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    <section id="value-proposition">
+        <div class="container">
+            <h2>Value Proposition</h2>
+            <p>CRISPY bite-sized news and updates</p>
+            <p>DELIVERED right where you want it</p>
+            <p>EVERYTHING you need to know about ONLY the stocks you want to know</p>
+        </div>
+    </section>
 
-.signin-container {
-    background: #fff;
-    padding: 3rem 2rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    width: 100%;
-    max-width: 400px;
-}
+    <section id="features">
+        <div class="container">
+            <h2>Lightning Fast Alerts Via WhatsApp</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Qualitative</h3>
+                    <ul>
+                        <li>Corporate Announcements</li>
+                        <li>Press Releases</li>
+                        <li>Company News</li>
+                        <li>Filings - Ks, Qs, everything</li>
+                    </ul>
+                </div>
+                <div class="feature">
+                    <h3>Quantitative</h3>
+                    <ul>
+                        <li>Price Alerts</li>
+                        <li>Volume Alerts</li>
+                        <li>Fundamentals - PE < 20</li>
+                        <li>Technicals - Breakouts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.signin-container h2 {
-    margin-bottom: 1.5rem;
-    color: #333;
-    font-weight: 500;
-}
+    <section id="about">
+        <div class="container">
+            <h2>About Sensibull</h2>
+            <p>Algorithmic Trading | Software Development | Digital Marketing | Public Speaking</p>
+            <p>Soham Jain, MS Finance (Fintech)</p>
+            <p>Prototype Ready, Launching August 2024</p>
+            <p>Email: <a href="mailto:info@sensibull.io">info@sensibull.io</a></p>
+            <p>Contact: +1 (551) 399-4727</p>
+        </div>
+    </section>
 
-.form-group {
-    margin-bottom: 1.5rem;
-    text-align: left;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-weight: 500;
-}
-
-.form-group input {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-button {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    background-color: #007BFF;
-    color: #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-    width: 100%;
-    font-weight: 500;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-.signup-link {
-    margin-top: 1.5rem;
-    color: #333;
-}
-
-.signup-link a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.signup-link a:hover {
-    text-decoration: underline;
-}
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sensibull.io - Bootstrapped</p>
+            <p>Thank You. Let’s Discuss Further…</p>
+        </div>
+    </footer>
+</body>
+</html>
